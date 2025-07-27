@@ -3,26 +3,56 @@ import React from 'react';
 const Skills = () => {
   const skills = [
     {
-      category: "Frontend",
+      category: "Frontend Development",
       items: [
-        { name: "HTML", percentage: 85 },
-        { name: "CSS", percentage: 90 },
-        { name: "JavaScript", percentage: 95 },
-        { name: "React.js", percentage: 90 }
+        { name: "React.js", percentage: 90, experience: "2+ years" },
+        { name: "JavaScript (ES6+)", percentage: 95, experience: "3+ years" },
+        { name: "HTML5 & CSS3", percentage: 90, experience: "3+ years" },
+        { name: "Responsive Design", percentage: 85, experience: "2+ years" }
       ]
     },
     {
-      category: "Backend",
+      category: "Backend Development",
       items: [
-        { name: "Node.js", percentage: 85 }
+        { name: "Node.js", percentage: 85, experience: "2+ years" },
+        { name: "Express.js", percentage: 80, experience: "1+ years" },
+        { name: "Python", percentage: 85, experience: "2+ years" },
+        { name: "Django", percentage: 75, experience: "1+ years" },
+        { name: "RESTful APIs", percentage: 88, experience: "2+ years" }
       ]
     },
     {
-      category: "Data & AI",
+      category: "Database Technologies",
       items: [
-        { name: "TensorFlow", percentage: 80 },
-        { name: "Machine Learning", percentage: 85 },
-        { name: "Data Science", percentage: 80 }
+        { name: "MongoDB", percentage: 80, experience: "1+ years" },
+        { name: "MySQL", percentage: 85, experience: "2+ years" },
+        { name: "Database Design", percentage: 82, experience: "2+ years" }
+      ]
+    },
+    {
+      category: "Programming Languages",
+      items: [
+        { name: "JavaScript", percentage: 95, experience: "3+ years" },
+        { name: "Python", percentage: 85, experience: "2+ years" },
+        { name: "Java", percentage: 80, experience: "2+ years" }
+      ]
+    },
+    {
+      category: "Data Science & AI",
+      items: [
+        { name: "Machine Learning", percentage: 85, experience: "1+ years" },
+        { name: "TensorFlow", percentage: 80, experience: "1+ years" },
+        { name: "Data Analysis", percentage: 82, experience: "1+ years" },
+        { name: "Python Libraries (Pandas, NumPy)", percentage: 78, experience: "1+ years" }
+      ]
+    },
+    {
+      category: "Development Tools & Practices",
+      items: [
+        { name: "Git & Version Control", percentage: 88, experience: "2+ years" },
+        { name: "Problem Solving", percentage: 92, experience: "3+ years" },
+        { name: "Code Review", percentage: 80, experience: "1+ years" },
+        { name: "Agile Methodology", percentage: 75, experience: "1+ years" }
       ]
     }
   ];
@@ -30,7 +60,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills">
       <div className="container">
-        <h2 className="section-title">My Skills</h2>
+        <h2 className="section-title">Technical Expertise</h2>
         <div className="skills-container">
           {skills.map((skillGroup, index) => (
             <div className="skill-group" key={index}>
@@ -40,6 +70,7 @@ const Skills = () => {
                   <div className="skill-item" key={idx}>
                     <div className="skill-info">
                       <span className="skill-name">{skill.name}</span>
+                      <span className="skill-experience">{skill.experience}</span>
                       <span className="skill-percentage">{skill.percentage}%</span>
                     </div>
                     <div className="skill-bar">
