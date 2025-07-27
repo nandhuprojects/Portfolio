@@ -37,15 +37,15 @@ const Footer = () => {
           <div className="footer-contact">
             <h3>Contact Info</h3>
             <p>
-              <img src="/images/icons/contact/envelope.svg" alt="Email" className="contact-icon" />
+              <img src="images/icons/contact/envelope.svg" alt="Email" className="contact-icon" />
               <span>nanuprojects@gmail.com</span>
             </p>
             <p>
-              <img src="/images/icons/contact/phone.svg" alt="Phone" className="contact-icon" />
+              <img src="images/icons/contact/phone.svg" alt="Phone" className="contact-icon" />
               <span>+91 63791 63589</span>
             </p>
             <p>
-              <img src="/images/icons/contact/map-marker.svg" alt="Location" className="contact-icon" />
+              <img src="images/icons/contact/map-marker.svg" alt="Location" className="contact-icon" />
               <span>Salem, Tamil Nadu, India</span>
             </p>
           </div>
@@ -55,13 +55,13 @@ const Footer = () => {
           <p>&copy; {year} NANDHAKUMAR V M. All Rights Reserved.</p>
           <div className="footer-social">
             <a href="https://github.com/nandhuprojects" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/social/github.svg" alt="GitHub" className="social-icon" />
+              <img src="images/icons/social/github.svg" alt="GitHub" className="social-icon" />
             </a>
             <a href="https://www.linkedin.com/in/nanuprojects/" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/social/linkedin.svg" alt="LinkedIn" className="social-icon" />
+              <img src="images/icons/social/linkedin.svg" alt="LinkedIn" className="social-icon" />
             </a>
             <a href="https://x.com/NANDHAK42841230" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/social/twitter.svg" alt="Twitter" className="social-icon" />
+              <img src="images/icons/social/twitter.svg" alt="Twitter" className="social-icon" />
             </a>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
       
       <div className="scroll-to-top">
         <Link to="hero" smooth={true} duration={500}>
-          <img src="/images/icons/navigation/chevron-up.svg" alt="Scroll to top" className="scroll-icon" />
+          <img src="images/icons/navigation/chevron-up.svg" alt="Scroll to top" className="scroll-icon" />
         </Link>
       </div>
     </footer>

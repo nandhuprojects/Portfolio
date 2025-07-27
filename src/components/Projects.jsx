@@ -87,17 +87,17 @@ const Projects = () => {
             <div className="project-card" key={project.id}>
               <div className="project-image">
                 <img 
-                  src={`/images/projects/${project.image}`} 
+                  src={`images/projects/${project.image}`} 
                   alt={project.title} 
                   className="project-img"
                 />
                 <div className="project-overlay">
                   <div className="project-links">
                     <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                      <img src="/images/icons/project/external-link.svg" alt="Live Site" className="project-icon" />
+                      <img src="images/icons/project/external-link.svg" alt="Live Site" className="project-icon" />
                     </a>
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                      <img src="/images/icons/social/github.svg" alt="GitHub Repo" className="project-icon" />
+                      <img src="images/icons/social/github.svg" alt="GitHub Repo" className="project-icon" />
                     </a>
                   </div>
                 </div>

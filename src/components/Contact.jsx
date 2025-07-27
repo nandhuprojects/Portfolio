@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <div className="contact-item">
-              <img src="/images/icons/contact/map-marker.svg" alt="Location" className="contact-icon" />
+              <img src="images/icons/contact/map-marker.svg" alt="Location" className="contact-icon" />
               <div>
                 <h3>Location</h3>
                 <p>Chennai, Tamil Nadu, India</p>
@@ -56,7 +56,7 @@ const Contact = () => {
             </div>
             
             <div className="contact-item">
-              <img src="/images/icons/contact/envelope.svg" alt="Email" className="contact-icon" />
+              <img src="images/icons/contact/envelope.svg" alt="Email" className="contact-icon" />
               <div>
                 <h3>Email</h3>
                 <p>nanuprojects@gmail.com</p>
@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
             
             <div className="contact-item">
-              <img src="/images/icons/contact/phone.svg" alt="Phone" className="contact-icon" />
+              <img src="images/icons/contact/phone.svg" alt="Phone" className="contact-icon" />
               <div>
                 <h3>Phone</h3>
                 <p>+91 63791 63589</p>
@@ -75,16 +75,16 @@ const Contact = () => {
               <h3>Follow Me</h3>
               <div className="social-icons">
                 <a href="https://github.com/nandhuprojects" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/icons/social/github.svg" alt="GitHub" className="social-icon" />
+                  <img src="images/icons/social/github.svg" alt="GitHub" className="social-icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/nanuprojects/" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/icons/social/linkedin.svg" alt="LinkedIn" className="social-icon" />
+                  <img src="images/icons/social/linkedin.svg" alt="LinkedIn" className="social-icon" />
                 </a>
                 <a href="https://x.com/NANDHAK42841230" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/icons/social/twitter.svg" alt="Twitter" className="social-icon" />
+                  <img src="images/icons/social/twitter.svg" alt="Twitter" className="social-icon" />
                 </a>
                 <a href="https://www.instagram.com/wtf.nandhu?igsh=ZTFwcmc0eGljYW94" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/icons/social/instagram.svg" alt="Instagram" className="social-icon" />
+                  <img src="images/icons/social/instagram.svg" alt="Instagram" className="social-icon" />
                 </a>
               </div>
             </div>
