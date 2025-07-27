@@ -41,7 +41,7 @@ const Projects = () => {
       image: "simple-portfolio.jpg",
       description: "A clean and responsive personal portfolio website showcasing projects, skills, and professional information with smooth animations and modern design.",
       technologies: ["HTML5", "CSS3", "JavaScript", "GSAP Animation", "Responsive Design"],
-      liveLink: "https://github.com/nandhuprojects/PortfolioWebsite",
+      liveLink: "https://github.com/nandhuprojects/Portfolio",
       githubLink: "https://github.com/nandhuprojects"
     }
   ];
