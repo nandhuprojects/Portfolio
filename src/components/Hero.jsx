@@ -23,7 +23,7 @@ const Hero = () => {
           <a href="https://www.linkedin.com/in/nanuprojects/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <img src="images/icons/social/linkedin.svg" alt="LinkedIn" className="social-icon" />
           </a>
-          <a href="https://www.instagram.com/wtf.nandhu?igsh=ZTFwcmc0eGljYW94" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/beingnandhu._?igsh=ZTFwcmc0eGljYW94" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <img src="images/icons/social/instagram.svg" alt="Instagram" className="social-icon" />
           </a>
         </div>

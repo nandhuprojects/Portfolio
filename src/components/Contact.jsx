@@ -83,7 +83,7 @@ const Contact = () => {
                 <a href="https://x.com/NANDHAK42841230" target="_blank" rel="noopener noreferrer">
                   <img src="images/icons/social/twitter.svg" alt="Twitter" className="social-icon" />
                 </a>
-                <a href="https://www.instagram.com/wtf.nandhu?igsh=ZTFwcmc0eGljYW94" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/beingnandhu._?igsh=ZTFwcmc0eGljYW94" target="_blank" rel="noopener noreferrer">
                   <img src="images/icons/social/instagram.svg" alt="Instagram" className="social-icon" />
                 </a>
               </div>
